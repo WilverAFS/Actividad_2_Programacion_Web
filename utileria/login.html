@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - Utilería JS</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main id="mainContent">
+    <div class="contenedor-formulario" style="max-width:420px; margin-top:40px;">
+      <h1>Iniciar sesión</h1>
+      <p class="subtitulo">Demostración de login implementando las validaciones: <code>validarCorreo()</code> y <code>validarPassword()</code> de <strong>utileria.js</strong></p>
+
+      <form id="loginForm" novalidate>
+        <!-- Correo -->
+        <div class="grupo-formulario">
+          <label for="loginCorreo">Correo electrónico</label>
+          <input type="email" id="loginCorreo" name="loginCorreo" placeholder="ejemplo@correo.com" autocomplete="email" />
+          <small id="errorCorreo" style="color:#b00020; display:none; margin-top:6px; font-size:13px;"></small>
+        </div>
+
+        <!-- Contraseña -->
+        <div class="grupo-formulario">
+          <label for="loginPassword">Contraseña</label>
+          <div style="position:relative;">
+            <input type="password" id="loginPassword" name="loginPassword" placeholder="Contraseña" autocomplete="current-password" />
+          </div>
+          <small id="errorPassword" style="color:#b00020; display:none; margin-top:6px; font-size:13px;"></small>
+        </div>
+
+        <div style="margin-top:18px; display:flex; gap:12px; justify-content:center;">
+          <button type="submit" class="boton-enviar">Entrar</button>
+          <button type="reset" class="boton-enviar" style="background:#9aa8b0;">Limpiar</button>
+        </div>
+
+        <a class="enlace-login" href="index.html" title="Ir a la página de registro">¿No tienes cuenta? Regístrate</a>
+      </form>
+    </div>
+  </main>
+
+  <!-- Modal de confirmación (reutiliza estilos de modal) -->
+  <div id="loginModalOverlay" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-box" role="document" aria-labelledby="loginModalTitulo" aria-describedby="loginModalMensaje">
+      <button class="modal-close" id="loginModalCerrar" aria-label="Cerrar ventana">✕</button>
+      <h2 id="loginModalTitulo">Estado</h2>
+      <p id="loginModalMensaje" class="modal-mensaje">Operación</p>
+      <div style="margin-top:16px;">
+        <button id="loginModalAceptar" class="boton-enviar">Aceptar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Librería y script de la página -->
+  <script src="js/utileria.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
