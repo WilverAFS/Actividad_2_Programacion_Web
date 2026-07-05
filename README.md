@@ -199,13 +199,14 @@ document.getElementById('loginForm').addEventListener('submit', function(e){
 **Login test (consola)**  
 ![Test Login](utileria/img/test_login.png)
 
+---
 ## Video promocional
-Accede a la presentacion en:
-- `https://1drv.ms/v/c/e80e64ce78a0815e/IQAMVjM9cOG9SoAIQpuWj-GUAa3uh_vl_J7orbcLNuPztDs?e=IDjnpy`
-- `https://1drv.ms/v/c/e80e64ce78a0815e/IQAFk3No9SLuRrhO0yvXNAXRAegPP-YqnbUkwYdmkU4DCaM?e=xTEFES`
+Accede a la presentación en:
+- [Video 1-Index en OneDrive](https://1drv.ms/v/c/e80e64ce78a0815e/IQAMVjM9cOG9SoAIQpuWj-GUAa3uh_vl_J7orbcLNuPztDs?e=IDjnpy)
+- [Video 2-Login en OneDrive](https://1drv.ms/v/c/e80e64ce78a0815e/IQAFk3No9SLuRrhO0yvXNAXRAegPP-YqnbUkwYdmkU4DCaM?e=xTEFES)
+
 ---
 
 ## GitHub Pages y entrega
-  - **Link al repositorio público** (`https://github.com/WilverAFS/Actividad_2_Programacion_Web`)
-  - **Link a GitHub Pages** (`https://wilverafs.github.io/Actividad_2_Programacion_Web/`)
----
+- **Link al repositorio público:** [https://github.com/WilverAFS/Actividad_2_Programacion_Web](https://github.com/WilverAFS/Actividad_2_Programacion_Web)  
+- **Link a GitHub Pages:** [https://wilverafs.github.io/Actividad_2_Programacion_Web/](https://wilverafs.github.io/Actividad_2_Programacion_Web/)
