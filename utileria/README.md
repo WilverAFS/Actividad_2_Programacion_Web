@@ -207,15 +207,12 @@ document.getElementById('loginForm').addEventListener('submit', function(e){
 
 ---
 ## Video promocional
-Accede a :
-
+Accede a la presentacion en:
+- `https://1drv.ms/v/c/e80e64ce78a0815e/IQAMVjM9cOG9SoAIQpuWj-GUAa3uh_vl_J7orbcLNuPztDs?e=IDjnpy`
+- `https://1drv.ms/v/c/e80e64ce78a0815e/IQAFk3No9SLuRrhO0yvXNAXRAegPP-YqnbUkwYdmkU4DCaM?e=xTEFES`
 ---
 
 ## GitHub Pages y entrega
-- Activa **GitHub Pages** en el repositorio (branch `main` o `gh-pages`) y publica el sitio.  
-- En el comentario de la clase deja:
-  - **Link al repositorio público** (ej. `https://github.com/tu-usuario/utileria`)
-  - **Link a GitHub Pages** (ej. `https://tu-usuario.github.io/utileria/`)
-
-
+  - **Link al repositorio público** (`https://github.com/WilverAFS/Actividad_2_Programacion_Web`)
+  - **Link a GitHub Pages** (`https://wilverafs.github.io/Actividad_2_Programacion_Web/`)
 ---
