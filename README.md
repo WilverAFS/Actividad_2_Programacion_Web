@@ -178,32 +178,26 @@ document.getElementById('loginForm').addEventListener('submit', function(e){
 - Formulario en `index.html` con modal abierto mostrando la edad.
 - `login.html` mostrando mensajes de éxito.
 
-### Vista previa (pantalla inicial)
+### Vista previa
 **Index preview**  
-`img/preview_index.png`  
-`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+![Vista previa Index](utileria/img/preview_index.png)
 
 **Login preview**  
-`img/preview_login.png`  
-`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+![Vista previa Login](utileria/img/preview_login.png)
 
 ### Datos de entrada (valores usados en los formularios)
 **Index datos**  
-`img/datos_index.png`  
-`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+![Datos Index](utileria/img/datos_index.png)
 
 **Login datos**  
-`img/datos_login.png`  
-`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+![Datos Login](utileria/img/datos_login.png)
 
 ### Pruebas en consola (validaciones de utileria.js)
 **Index test (consola)**  
-`img/test_index.png`  
-`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+![Test Index](utileria/img/test_index.png)
 
 **Login test (consola)**  
-`img/test_login.png`  
-`[Parece que el resultado no era seguro para mostrar. ¡Cambiemos de enfoque y probemos algo diferente!]`
+![Test Login](utileria/img/test_login.png)
 
 ## Video promocional
 Accede a la presentacion en:
